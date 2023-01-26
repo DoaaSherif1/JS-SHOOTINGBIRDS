@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-align: center;
+  text-align-last: center;
+  user-select: none;
+}
+.row{
+  top: 0;
+  overflow:hidden;
+  margin-bottom: 1%;
+  width: 30%;
+  height: 280px;
+  text-align: center;
+  margin-left: 32%;
+  background-color: #e2dbdbb1;
+  border-radius: 10%;
+  
+}
+
+
+.login-page {
+  width: 360px;
+  margin: 0 0 0 10%;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  margin-right: 10%;
+  padding: 0 45px;
+  text-align: center;
+}
+
+.form input,
+.form select {
+  font-family:'Times New Roman', Times, serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.form button {
+  border: 0;
+  outline: 0;
+  width: 70%;
+  padding: 5px;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 20px;
+  letter-spacing: 4px;
+  background: #469710;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  transition: background-color 1s;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: rgb(30, 59, 1);
+}
+
+
+
+
+
+
+body {
+  background:url("../images/bc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -80px;
+}
+
+
+
+
+
+  .white{
+    font-size: xx-large;
+    font-weight:bolder;
+    color:blue;
+    float:right;
+    margin-right: 15%;
+  }
+  .black{
+    font-size: xx-large;
+    font-weight:bolder;
+    color:orange;
+    float:right;
+    margin-right: 12%;
+  }
+  .blue{
+    font-size: xx-large;
+    font-weight:bolder;
+    color:red;
+    float:right;
+    margin-right: 12%;
+  }
+  
+  
+  
+  

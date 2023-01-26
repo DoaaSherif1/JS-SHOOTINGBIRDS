@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Css/login.css">
+</head>
+<body>
+    
+    <div class="row">
+        <div class="col-3">
+            <div class="login-page">
+                <div class="form">
+                    <form class="login-form" action="game.html" id="loginForm">
+                        <h2>Enter Your Name</h2>
+                        <input type="text"  name="username" placeholder="Your Name" class="form-control" required>
+                        <h2>Select Game Level</h2>
+                        <select name="levels" id="gameLevels" class="form-control" title="pick your level" required>
+                            <option value="" disabled selected hidden  >Choose your level</option>
+                            <option value="level1" style="font-size:x-large; font-weight: bold; font-weight: bold">Level 1</option>
+                            
+                        </select>
+                        <button type="submit" value="Submit" form="loginForm">Go</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <div class="row">
+        <h2>Game Bird Shooting Points</h2>
+        <div>
+        <img src="./images/white.gif" style="height: 80px;">
+        <span class="white"> +5 Points</span>
+        </div>
+        <div>
+        <img src="./images/black.gif" style="height: 60px;">
+        <span class="black"> +10 Points</span>
+        </div>
+        <div>
+        <img src="./images/blue.gif" style="height: 50px;">
+        <span class="blue"> -10 Points</span>
+    </div>
+        </div>
+
+    <script src="Scripts/login.js" type="module"></script>
+    
+</body>
+</html>

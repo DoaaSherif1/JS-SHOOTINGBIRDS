@@ -1,0 +1,249 @@
+
+* {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    cursor: url(../images/focus.png),auto;
+  }
+  
+  body {
+    background: url("../images/bg5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    cursor:none;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 140px;
+  }
+  
+  .score {
+    color:whitesmoke;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2%;
+    z-index: -1;
+    
+  }
+  .score h2.wel{
+    
+    background-color: rgba(128, 128, 128, 0.669);
+    width: 270px;
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid black;
+    } 
+  .score h2.s{
+  margin-left: 4%;
+  background-color: rgba(128, 128, 128, 0.669);
+  width: 200px;
+  text-align: center;
+  border-radius: 100px;
+  border: 2px solid black;
+  } 
+  .score h2.ls{
+  margin-left: 4%;
+  background-color: rgba(128, 128, 128, 0.669);
+  width: 250px;
+  text-align: center;
+  border-radius: 100px;
+  border: 2px solid black;
+  } 
+  .score h2.time{
+    margin-left: 4%;
+    background-color: rgba(128, 128, 128, 0.669);
+    width: 200px;
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid black;
+    } 
+  .score h2.k{
+    margin-left: 4%;
+    background-color: rgba(128, 128, 128, 0.669);
+    width: 200px;
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid black;
+    } 
+  
+  .whiteBird {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    margin: 10px 2px;
+  }
+  .blackBird{
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    margin: 10px 2px;
+  }
+  .blueBird{
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    margin: 10px 2px;
+  }
+  
+  #welcome {
+    position: fixed;
+    top: 15%;
+    left: 29%;
+    background-color: rgba(243, 243, 243, 0.689);
+
+    width: 510px;
+    height: 380px;
+    border-radius: 18%;
+    color: rgb(7, 7, 7);
+    transition: all 1s cubic-bezier(0.93, -0.22, 1, -0.01);
+    font-family: cursive;
+    border: 2px solid black;
+  }
+  #welcome img{
+    transform: translate(-50%, -50%);
+    position: relative;
+    height: 90px;
+    top:22%;
+    left:50%
+  }
+  #welcome h3 {
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 4%;
+    left: 49%;
+    transition: all 1s cubic-bezier(0.93, -0.22, 1, -0.01);
+    font-size: 24px;
+  
+  }
+  #welcome h4 {
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 5%;
+    left: 75%;
+    transition: all 1s cubic-bezier(0.93, -0.22, 1, -0.01);
+    font-size: 22px;
+    font-weight: lighter;
+  
+  }
+  #welcome h5 {
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 7%;
+    left: 51%;
+    transition: all 1s cubic-bezier(0.93, -0.22, 1, -0.01);
+    font-size: 22px;
+    font-weight: lighter;
+  
+  }
+  
+  #welcome button {
+    transform: translate(-50%, -50%);
+    position: relative;
+    top:8%;
+    left: 49%;
+    background: #066610;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 1s;
+  }
+  
+  #welcome button:hover {
+    background-color: #50e495;
+    color: white;
+    cursor: pointer;
+  }
+  #welcome p{
+    
+    margin-left: 2%;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+  }
+  
+  .out {
+    right: 100% !important;
+    color: transparent !important;
+    background:transparent;
+  }
+  
+  .out h1,.out img,
+  .out button {
+    left: -40% !important;
+    background: transparent;
+    color: transparent;
+    border: none;
+  }
+  
+  #msg {
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 28%;
+    display: none;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: rgba(168, 167, 167, 0.751);
+    border-radius: 100px;
+    position: relative;
+    border: 2px solid black;
+    
+}
+#msg button{
+  position:fixed;
+  background-color: rgb(3, 107, 3);
+  color: white;
+  width: 100px;
+  height: 40px;
+  left: 560px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  cursor: pointer;
+}
+#msg button:hover{
+  background-color:#33db81;
+}
+
+#msg img {
+    opacity: 0.7;
+    width: 150px;
+    height: 150px;
+}
+.bomb {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 0;
+}
+.fire{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+.died{
+  display: block;
+    position: absolute;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin: 10px 2px;
+}

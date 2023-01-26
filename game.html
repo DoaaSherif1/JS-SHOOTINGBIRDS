@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Birds</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+</head>
+<body>
+    <div class="container">
+    <section id="welcome">
+        <img src="./images/welcome.png">
+        <h3>Welcome  <span id="name"> </span></h3>
+        <h4>hope you enjoy our game</h4>
+        <h5>To win, you should kill 25(black and white) birds</h5><br/>
+        <p><span id="last"></span></p>
+        <button>Start Game</button>
+    </section>
+    </div>
+    
+    <div class="wrapper">
+        <div>
+            
+            <div class="score">
+                <h2 class="wel">Welcome : <span class="playerName"></span></h2>
+                <h2 class="s">Score : <span class="playerScore">00</span> </h2>
+                <h2 class="ls">Highest Score : <span id="lastscore">00</span> </h2>
+                <h2 class="time">Timer : <span class="timer">1:00</span> </h2>
+                <h2 class="k">Kills : <span class="kills">0</span> </h2>
+
+            </div>
+            
+        </div>
+    </div>
+    <div id="msg">
+        <h1></h1>
+        <img src=" " alt="">
+        <br>
+        <h1></h1>
+        <button>Play Again</button>
+    </div>
+    <audio src="./sounds/gs.mp3" style="display: none;"></audio>
+    <audio src="./sounds/kill.mp3" style="display: none;"></audio>
+    <audio src="./sounds/bomb.mp3" style="display: none;"></audio>
+
+    <script src="./Scripts/functions.js"></script>
+    <script src="./Scripts/game.js"></script>
+</body>
+</html>
